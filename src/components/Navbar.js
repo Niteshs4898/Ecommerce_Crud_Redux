@@ -5,7 +5,7 @@ import { cartItem } from "../store/cartSlice";
 import { useState } from "react";
 import { productlist } from "../store/productSlice";
 import { productSearch, handleReset1 } from "../store/productSlice";
-
+//nitesh
 const Navbar = () => {
   const item = useSelector(cartItem);
   const list = useSelector(productlist);

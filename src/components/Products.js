@@ -8,7 +8,7 @@ import { BsCurrencyBitcoin } from "react-icons/bs";
 import "./product.css";
 import { itemadd } from "../store/buySlice";
 import { Link } from "react-router-dom";
-
+//nitesh
 const Products = () => {
   const dispatch = useDispatch();
 
