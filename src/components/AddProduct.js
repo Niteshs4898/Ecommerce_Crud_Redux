@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addaProduct } from "../store/productSlice";
 import { Link } from "react-router-dom";
-//nitesh
+
 const AddProduct = () => {
   const [formImg, setFormImg] = useState("");
   const [input, setInput] = useState({
