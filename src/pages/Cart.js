@@ -10,7 +10,7 @@ import { itemadd } from "../store/buySlice";
 import "./cart.css";
 
 const Cart = () => {
-  const product = useSelector(cartItem);
+  const product = useSelector(cartItem);  // add on
 
   const dispatch = useDispatch();
 
